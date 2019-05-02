@@ -1,0 +1,118 @@
+/* global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 19px;
+}
+
+header, footer {
+  background: #06D6A0;
+  padding: 20px;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* headings + paragraphs */
+
+h1 {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+h2 {
+  color: #fff;
+  font-size: 2rem;
+  margin-top: 1em;
+}
+
+p {
+  margin: 1em 0;
+}
+
+/* header */
+
+header {
+  display: flex; 
+  justify-content: space-between;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+}
+
+.nav-links {
+  margin-left: 10px;
+}
+
+/* welcome section */
+
+.section-welcome {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  background: #26547C;
+  text-align: center;
+  padding: 0;
+}
+
+/* cats section */
+
+.section-cats {
+  background: #FFD166;
+}
+
+/* products section */
+
+.section-products {
+  background-color: #F2F2F2;
+}
+
+.product-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 0;
+}
+
+.product-image {
+  border: 4px solid #000;
+}
+
+/* about section */
+.section-about { background: #26547C}
+
+.benefits {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-transform: uppercase;
+  text-align: center;
+  color: #EF476F
+}
+
+.section-about p { color: #fff; }
+
+/* footer */
+
+footer { text-align: right; }
